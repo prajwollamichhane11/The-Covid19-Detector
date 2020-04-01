@@ -1,0 +1,623 @@
+ID,age,sex,fever,cough,fatigue,abdominal pain,diarrhea,malaise,pneumonia,aching muscles,anorexia,asymptomatic,chest discomfort,dyspnea,nausea,vomitting,chills,conjuctivitis,joint pain,headache,weakness,sore throat,sneezing,rhinorrhea,dizziness,runny nose,difficulty walking,sputum,pneumonitis,physical discomfort,toothache,wheezing,dry mouth,sweating,covid_19
+1,33,male,,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+2,60-69,male,,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+3,16,male,,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+4,69,male,,,fatigue,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+5,50-59,male,fever,,,abdominal pain,diarrhea,malaise,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+6,55,male,fever,,,,,,pneumonia,aching muscles,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+7,80-89,male,,,,,,,,,anorexia,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+8,2,male,,,,,,,,,,asymptomatic,,,,,,,,,,,,,,,,,,,,,,,TRUE
+9,11,male,,,,,,,,,,asymptomatic,,,,,,,,,,,,,,,,,,,,,,,TRUE
+10,30-39,male,,,,,,,,,,asymptomatic,,,,,,,,,,,,,,,,,,,,,,,TRUE
+11,50-59,male,,,,,,,,,,asymptomatic,,,,,,,,,,,,,,,,,,,,,,,TRUE
+12,30-39,male,,,,,,,,,,asymptomatic,,,,,,,,,,,,,,,,,,,,,,,TRUE
+13,80,male,,,,,,,,,,,chest discomfort,dyspnea,,,,,,,,,,,,,,,,,,,,,TRUE
+14,66,male,fever,,,,,,,,,,chest discomfort,dyspnea,,,,,,,,,,,,,,,,,,,,,TRUE
+15,40,male,fever,,,,,,,,,,chest discomfort,,nausea,,,,,,,,,,,,,,,,,,,,TRUE
+16,60-69,male,fever,,,,,malaise,,,,,,,,,chills,,,,,,,,,,,,,,,,,,TRUE
+17,31,male,fever,cough,,,,,,,,,,,,,chills,conjuctivitis,,,,,,,,,,,,,,,,,TRUE
+18,60-69,male,,cough,,,,,,,,,,,,,chills,,joint pain,,,,,,,,,,,,,,,,TRUE
+19,38,male,,,,,diarrhea,,,aching muscles,,,,dyspnea,,,chills,,,headache,weakness,,,,,,,,,,,,,,TRUE
+20,54,male,fever,,,,,,,,,,,,,,chills,,,,,,,,,,,,,,,,,,TRUE
+21,35,male,fever,,,,,,,,,,,,,,chills,,,,,,,,,,,,,,,,,,TRUE
+22,37,male,fever,,,,,,,aching muscles,,,,,,,chills,,,,,,,,,,,,,,,,,,TRUE
+23,33,male,fever,,,,,,,aching muscles,,,,,,,chills,,,,,sore throat,,,,,,,,,,,,,TRUE
+24,36,male,fever,cough,,,diarrhea,,,,,,,,,,,,,,,,sneezing,rhinorrhea,,,,,,,,,,,TRUE
+25,43,male,,cough,,,diarrhea,,,,,,,,,vomitting,,,,,,,,,,,,,,,,,,,TRUE
+26,40,male,,cough,,,,,,,,,,,,,,,,,,,,,dizziness,,,,,,,,,,TRUE
+27,50,male,fever,cough,,,,,,,,,,dyspnea,,,,,,,,,,,,,,,,,,,,,TRUE
+28,75,male,,cough,,,,,,,,,,dyspnea,,,,,,,,,,,,,,,,,,,,,TRUE
+29,25,male,,cough,,,diarrhea,,,,,,,,,,,,,,,,,,,runny nose,,,,,,,,,TRUE
+30,50-59,male,fever,cough,,,,,,,,,,dyspnea,,,,,,,,,,,,,,,,,,,,,TRUE
+31,66,male,fever,cough,fatigue,,,,,,,,,,,,,,,,weakness,,,,,,,,,,,,,,TRUE
+32,49,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,sputum,,,,,,,TRUE
+33,69,male,fever,cough,fatigue,,,,,,,,,,,,,,,,,,,,,,,sputum,,,,,,,TRUE
+34,60,male,fever,cough,fatigue,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+35,63,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+36,34,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+37,54,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+38,72,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+39,39,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+40,56,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+41,50,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+42,33,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+43,58,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+44,53,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+45,59,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+46,66,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+47,40,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+48,39,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+49,28,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+50,40-49,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+51,40-49,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+52,80,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+53,26,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+54,36,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+55,41,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+56,9,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+57,51,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+58,36,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+59,40-49,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+60,60-69,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+61,50-59,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+62,57,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+63,26,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+64,33,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+65,50,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+66,40-49,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+67,20-29,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+68,30-39,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+69,80-89,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+70,24,male,fever,cough,,,,,,aching muscles,,,,,,,,,,headache,weakness,,,,,,,,,,,,,,TRUE
+71,35,male,fever,cough,,,,,,,,,,,nausea,,,,,,,,,,,,,,,,,,,,TRUE
+72,51,male,fever,cough,,,,,,aching muscles,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+73,50-59,male,fever,cough,,,,malaise,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+74,30-39,male,fever,cough,,,,,,,,,,,,,,,joint pain,,,,,,,,,,,,,,,,TRUE
+75,40,male,fever,cough,,,,,,aching muscles,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+76,35,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,runny nose,,,,,,,,,TRUE
+77,30,male,fever,cough,,,,,,,,,,,,,,,,,,sore throat,,,,,,,,,,,,,TRUE
+78,32,male,fever,cough,,,,,,,,,,dyspnea,,,,,,,,,,,,,,,,,,,,,TRUE
+79,44,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,sputum,,,,,,,TRUE
+80,59,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,runny nose,,,,,,,,,TRUE
+81,27,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,sputum,,,,,,,TRUE
+82,20-29,male,fever,cough,,,,,,,,,,,,,,,,,,sore throat,,,,,,,,,,,,,TRUE
+83,33,male,,cough,,,,,,,,,,,,,,,,headache,,,,,,,,,,,,,,,TRUE
+84,62,male,,cough,,,,,,aching muscles,,,,,,,,,,,weakness,,,,,,,,,,,,,,TRUE
+85,44,male,,cough,,,,,,,,,,,,,,,,,,sore throat,,,,,,,,,,,,,TRUE
+86,60-69,male,,cough,,,,,,,,,,dyspnea,,,,,,,,,,,,,,,,,,,,,TRUE
+87,50-59,male,,cough,,,,malaise,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+88,60-69,male,,cough,,,,,,,,,,,,,,,,,,sore throat,,,,,,,,,,,,,TRUE
+89,43,male,fever,,,,,malaise,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+90,29,male,,,,,,malaise,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+91,20,male,,,,,,malaise,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+92,28,male,,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+93,31,male,,,,,,malaise,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+94,59,male,,cough,,,,,,,,,,,,,,,,,,sore throat,,,,,,sputum,,,,,,,TRUE
+95,23,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,sputum,,,,,,,TRUE
+96,80-89,male,,,,,,,,,,,,dyspnea,,,,,,,,,,,,,,,,,,,,,TRUE
+97,57,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,sputum,,,,,,,TRUE
+98,41,male,,cough,,,,,,aching muscles,,,,,,,chills,,,,,,,,,,,,,,,,,,TRUE
+99,36,male,fever,,fatigue,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+100,19,male,,,fatigue,,,,,aching muscles,,,,,,,,,,,,sore throat,,,,,,,,,,,,,TRUE
+101,51,male,fever,,fatigue,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+102,69,male,,,fatigue,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+103,29,male,fever,,,,,,,,,,,,,,,conjuctivitis,,,,,,,,,,,,,,,,,TRUE
+104,80-89,male,fever,,,,,,,,,,,dyspnea,,,,,,,,,,,,,,,,,,,,,TRUE
+105,31,male,,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+106,70-79,male,fever,,fatigue,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+107,50-59,male,fever,,,,,,,,,,,dyspnea,,,,,,,,,,,,,,,,,,,,,TRUE
+108,70-79,male,fever,cough,,,,malaise,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+109,70-79,male,fever,,,,,,pneumonia,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+110,0-10,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+111,60-69,male,fever,,,,,malaise,,,,,,,,,,,,,,sore throat,,,,,,,,,,,,,TRUE
+112,45,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+113,37,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+114,39,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+115,45,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+116,45,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+117,42,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+118,49,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+119,46,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+120,41,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+121,61,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+122,51,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+123,56,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+124,37,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+125,28,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+126,22,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+127,42,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+128,38,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+129,65,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+130,31,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+131,48,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+132,46,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+133,46,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+134,43,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+135,35,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+136,49,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+137,55,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+138,68,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+139,43,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+140,47,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+141,55,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+142,64,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+143,53,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+144,38,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+145,37,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+146,49,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+147,41,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+148,31,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+149,47,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+150,16,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+151,32,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+152,25,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+153,51,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+154,43,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+155,72,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+156,33,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+157,32,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+158,32,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+159,43,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+160,29,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+161,61,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+162,33,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+163,35,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+164,29,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+165,41,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+166,75,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+167,20-29,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+168,50-59,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+169,60-69,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+170,29,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+171,51,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+172,37,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+173,40-49,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+174,20-29,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+175,50-59,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+176,50-59,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+177,70-79,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+178,61,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+179,50-59,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+180,50-59,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+181,0-6,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+182,0-10,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+183,0-10,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+184,40-49,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+185,50-59,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+186,60-69,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+187,60-69,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+188,10,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+189,20-29,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+190,70-79,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+191,62,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+192,80,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+193,60-69,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+194,50-59,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+195,60-69,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+196,50-59,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+197,50-59,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+198,60-69,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+199,20-29,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+200,0-10,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+201,60-69,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+202,60-69,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+203,60-69,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+204,20-29,male,fever,,,,,malaise,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+205,50-59,male,fever,,,,,,,,,,,,,,,,,,,sore throat,,,,,,,,,,,,,TRUE
+206,70-79,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+207,50-59,male,fever,,,,,malaise,,,,,,,,,,,,headache,,,,,,,,,,,,,,,TRUE
+208,40-49,male,fever,,,,,,,,,,,,,,,,joint pain,,,,,,,,,,,,,,,,TRUE
+209,30-39,male,fever,,,,,malaise,,,,,,,,,,,joint pain,headache,,,,,,,,,,,,,,,TRUE
+210,0-10,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+211,80-89,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+212,60-69,male,fever,cough,,,,,,,,,,,,,,,,headache,,,,,,,,,,,,,,,TRUE
+213,80-89,male,fever,,fatigue,,,,,,,,,,,,,,,,,,,,,,difficulty walking,,,,,,,,TRUE
+214,27,male,fever,,,,,,,,,,,,,,,,,,weakness,,,,,,,,,,,,,,TRUE
+215,47,male,fever,,,,,,,aching muscles,,,,,,,,,,,weakness,,,,,,,,,,,,,,TRUE
+216,52,male,fever,,,,,,,aching muscles,,,,,,,,,,,weakness,,,,,,,,,,,,,,TRUE
+217,22,male,fever,,,,,,,,,,,,,,,,,,,sore throat,,,,,,,,,,,,,TRUE
+218,51,male,fever,,,,,,,aching muscles,,,,,,,chills,,,,,,,,,,,,,,,,,,TRUE
+219,40,male,fever,,,,,,pneumonia,,,,,,,,,,,,,sore throat,,,,,,,,,,,,,TRUE
+220,40,male,fever,,,,,,pneumonia,,,,,,,,,,joint pain,,,,,,,,,,,,,,,,TRUE
+221,60,male,fever,,,,,,,,,,,,,,,,,,,,,,,runny nose,,,,,,,,,TRUE
+222,37,male,fever,,,,,,,,,,,dyspnea,,,,,,,,,,,,,,,,,,,,,TRUE
+223,65,male,fever,,,,,,,aching muscles,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+224,60,male,fever,,,,,,,aching muscles,,,,dyspnea,,,,,,,,,,,,,,,,,,,,,TRUE
+225,60-69,male,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+226,37,male,fever,,,,,,,,,,,,,,,,,,,sore throat,,,,,,,,,,,,,TRUE
+227,60,male,fever,,,,,,pneumonia,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+228,60-69,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+229,41,male,fever,cough,,,,,,,,,,,,,,,,,,sore throat,,,,,,,,,,,,,TRUE
+230,33,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+231,40-49,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+232,50-59,male,fever,cough,,,,malaise,,,anorexia,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+233,80-89,male,fever,cough,,,,,,,,,,dyspnea,,,,,,,,,,,,,,sputum,,,,,,,TRUE
+234,70-79,male,fever,cough,,,,,,,,,,dyspnea,,,,,,,,,,,,,,sputum,,,,,,,TRUE
+235,70-79,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,sputum,,,,,,,TRUE
+236,40-49,male,fever,cough,,,,,,,,,,,,,,,,headache,,,,,,,,,,,,,,,TRUE
+237,42,male,,,,,,,,aching muscles,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+238,28,male,,,,,,,pneumonia,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+239,41,male,,,,,,,pneumonia,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+240,48,male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+241,44,male,,,,,,,,,,,,,,,,,,,,,,,,,,,pneumonitis,,,,,,TRUE
+242,39,male,,,,,,,pneumonia,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+243,27,male,,,,,,,,,,,,,,,,,,,,,,,,,,,pneumonitis,,,,,,TRUE
+244,36,male,,,,,,,,,,,,,,,,,,,,,,,,,,,pneumonitis,,,,,,TRUE
+245,25,male,,,,,,,,,,,,,,,,,,,,,,,,,,,pneumonitis,,,,,,TRUE
+246,50,male,,,,,,,,,,,,,,,,,,,,,,,,,,,pneumonitis,,,,,,TRUE
+247,36,male,,,,,,,,,,,,,,,,,,,,,,,,,,,pneumonitis,,,,,,TRUE
+248,64,male,,,,,,,,,,,,,,,,,,,,,,,,,,,pneumonitis,,,,,,TRUE
+249,70,male,,,,,,,,,,,,,,,,,,,,,,,,,,,pneumonitis,,,,,,TRUE
+250,25,male,,,,,,,,,,,,,,,,,,,,,,,,,,,pneumonitis,,,,,,TRUE
+251,50,male,,,,,,,,aching muscles,,,,,,,,,,,,,,rhinorrhea,,,,,,,,,,,TRUE
+252,35,male,,,,,,,,,,,,,,,,,,,,,,,,,,,,physical discomfort,,,,,TRUE
+253,60,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+254,73,male,,,,,,,,,,,,dyspnea,,,,,,,,,,,,,,,,,,,,,TRUE
+255,20-29,male,,,,,,,,,,,,,,,,,,,,,,,,runny nose,,,,,,,,,TRUE
+256,47,male,fever,cough,fatigue,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+257,62,male,fever,,fatigue,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+258,68,male,,,,,,,,,,,,,nausea,vomitting,,,,,,,,,,,,,,,,,,,TRUE
+259,24,male,fever,,,,,,,,,,,,,,,,,,,,,,,runny nose,,,,,,,,,TRUE
+260,60,male,fever,cough,fatigue,,,,,,,,,,nausea,,,,,,,,,,,,,,,,,,,,TRUE
+261,65,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+262,50,male,,,fatigue,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+263,43,male,,,,,,,,,,,,,,,,,,,,sore throat,,,,,,,,,,,,,TRUE
+264,60-69,male,,,,,,,,,,,,dyspnea,,,,,,,,,,,,,,,,,,,,,TRUE
+265,62,male,fever,,fatigue,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+266,50-59,male,,,,,,,,,,,,,,,,,,,,sore throat,,,,,,,,,,,,,TRUE
+267,70-79,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+268,70-79,male,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+269,50-59,male,fever,,,,,malaise,pneumonia,,,,,,,,,,,headache,,,,,,,,,,,toothache,,,,TRUE
+270,30-39,male,fever,,,,,,,,,,,,,,,,,,,sore throat,,,,,,,,,,,,,TRUE
+271,40-49,male,fever,cough,,,,,,,,,,,,vomitting,,,,,,sore throat,,,,,,,,,,,,,TRUE
+272,42,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+273,59,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+274,33,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+275,33,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+276,33,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+277,50,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+278,62,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+279,32,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+280,62,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+281,28,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+282,29,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+283,25,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+284,73,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+285,48,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+286,54,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+287,46,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+288,58,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+289,39,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+290,44,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+291,59,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+292,43,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+293,39,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+294,67,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+295,52,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+296,34,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+297,24,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+298,32,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+299,52,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+300,42,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+301,73,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+302,47,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+303,73,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+304,39,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+305,42,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+306,66,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+307,37,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+308,33,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+309,69,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+310,52,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+311,43,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+312,22,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+313,35,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+314,61,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+315,50-59,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+316,27,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+317,27,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+318,20-29,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+319,40-49,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+320,13-19,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+321,70-79,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+322,60-69,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+323,40-49,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+324,30-39,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+325,28,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+326,1.75,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+327,21,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+328,60-69,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+329,39,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+330,40-49,female,fever,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+331,63,female,fever,cough,,,,,,,,,,dyspnea,,,,,,,weakness,,,,,,,,,,,,,,TRUE
+332,49,female,,cough,,,,,,aching muscles,,,chest discomfort,,,,,,,,,,,,,,,sputum,,,,,,,TRUE
+333,65,female,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,physical discomfort,,,,,TRUE
+334,30,female,fever,cough,fatigue,,,,,,,,,,,,chills,,,,,,,,,,,,,,,,,,TRUE
+335,65,female,,,,,,,,,,asymptomatic,,,,,,,,,,,,,,,,,,,,,,,TRUE
+336,61,female,fever,,,,,,,,,,,,,,chills,,,headache,,sore throat,,,,,,,,,,,,,TRUE
+337,51,female,fever,,,,,,,,,,,,,,chills,,,headache,,,,,,,,,,,,,,,TRUE
+338,46,female,,,fatigue,,,,,,,,,,,,chills,,,,,,,,,,,,,,,,,,TRUE
+339,42,female,,,,,,,,,,,chest discomfort,,,,,,,,,,,,,,,,,,,,,,TRUE
+340,55,female,fever,,,,,,,,,,chest discomfort,,,,,,,,,,,,,,,,,,,,,,TRUE
+341,78,female,,,,,,,,,,,chest discomfort,,,,,,,,,,,rhinorrhea,,,,,,,,,,,TRUE
+342,40-49,female,fever,,,,,,,,,,,,,,chills,,,,,sore throat,,,,runny nose,,,,,,wheezing,,,TRUE
+343,34,female,,cough,,,,,,,,,chest discomfort,,,,,,,,,,,,,,,,,,,,,,TRUE
+344,58,female,,cough,,,,,,,,,chest discomfort,,,,,,,,,,,,,,,,,,,,dry mouth,,TRUE
+345,67,female,fever,cough,,,,,,,,,,,,,chills,,,,,,,,,,,,,,,,,,TRUE
+346,50-59,female,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+347,16,female,,,,abdominal pain,,,,,,,,,,,,,,,,,,,,,,,pneumonitis,,,,,,TRUE
+348,80-89,female,,,fatigue,,,,,,anorexia,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+349,52,female,,,fatigue,,,,,,,,chest discomfort,,,,,,,,,,,,,,,,,,,,,,TRUE
+350,40-49,female,,,fatigue,,,,,,,,,,,,chills,,,headache,,,,,,,,,,,,,,,TRUE
+351,38,female,,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+352,66,female,,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+353,37,female,,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+354,72,female,,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+355,49,female,,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+356,45,female,,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+357,69,female,,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+358,34,female,,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+359,55,female,,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+360,60,female,,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+361,60-69,female,,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+362,62,female,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+363,57,female,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+364,40,female,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+365,42,female,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+366,60,female,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+367,30-39,female,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+368,53,female,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+369,35,female,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+370,47,female,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+371,68,female,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+372,28,female,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+373,27,female,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+374,25,female,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+375,38,female,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+376,36,female,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+377,46,female,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+378,64,female,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+379,16,female,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+380,28,female,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+381,64,female,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+382,61,female,fever,cough,fatigue,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+383,39,female,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+384,35,female,fever,cough,fatigue,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+385,65,female,fever,cough,,,,,,,,,,,,,,,,,weakness,,,,,,,,,,,,,,TRUE
+386,20,female,fever,cough,,,,,,aching muscles,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+387,52,female,,cough,,,,,,,,,,,,,,,,,,sore throat,,,,,,,,,,,,,TRUE
+388,55,female,fever,cough,,,,,,,,,,dyspnea,,,,,,,,,,,,,,,,,,,,,TRUE
+389,52,female,fever,cough,,,,,,aching muscles,,,,,,,,,,,,sore throat,,rhinorrhea,,,,,,,,,,,TRUE
+390,40-49,female,fever,cough,,,,,pneumonia,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+391,62,female,fever,cough,,,,,,aching muscles,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+392,20-29,female,,cough,,,,,,,,,,,,,,,,,,,,,,runny nose,,,,,,,,,TRUE
+393,64,female,,cough,,,,,,,,,,,,,,,,,,,,,,,,sputum,,,,,,,TRUE
+394,29,female,fever,cough,,,,,,,,,,,,,,,,,,,,,,runny nose,,,,,,,,,TRUE
+395,42,female,fever,cough,,,,,,,,,,,,,,,,,,,,,,runny nose,,,,,,,,,TRUE
+396,66,female,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+397,51,female,fever,cough,,,,,,aching muscles,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+398,64,female,fever,cough,,,,,,,,,,dyspnea,,,,,,,,,,,,,,,,,,,,,TRUE
+399,38,female,,cough,,,,,,aching muscles,,,,,,,,,,,,,,,,,,,,,,,,sweating,TRUE
+400,50-59,female,fever,cough,,,,,pneumonia,,,,,dyspnea,,,,,,,,,,,,,,,,,,,,,TRUE
+401,20-29,female,,cough,,,,,,,,,,dyspnea,,,,,,,,,,,,,,,,,,,,,TRUE
+402,46,female,,cough,,,,,,,,,,dyspnea,,,,,,,,,,,,,,,,,,,,,TRUE
+403,73,female,fever,cough,,,,,,,,,,,,,,,,,,sore throat,,,,,,,,,,,,,TRUE
+404,0.25,female,,cough,,,,,,,,,,,,,,,,,,,,,,runny nose,,,,,,,,,TRUE
+405,44,female,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+406,0-10,female,,cough,,,,,,,,,,,,,,,,,,sore throat,,,,,,,,,,,,,TRUE
+407,80-89,female,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,sputum,,,,,,,TRUE
+408,44,female,fever,,fatigue,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+409,37,female,fever,,,,diarrhea,,,,,,chest discomfort,,,,,,,,,sore throat,,rhinorrhea,,,,,,,,,,,TRUE
+410,56,female,fever,,fatigue,,,,,,,,,,,,,,,,weakness,,,,,,,,,,,,,,TRUE
+411,25,female,fever,,,,,,,,,,,dyspnea,,,,,,,,,,,,,,,,,,,,,TRUE
+412,33,female,fever,cough,,,,,,aching muscles,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+413,21,female,,,,,,,,aching muscles,,,,,,,,,,,,,,,dizziness,,,,,,,,,,TRUE
+414,48,female,fever,,,,,,,aching muscles,,,,,,,,,joint pain,,,,,,,,,,,,,,,,TRUE
+415,60-60,female,fever,,,,,,,,,,,,,,,,,headache,,,,,,,,,,,,,,,TRUE
+416,42,female,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+417,26,female,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+418,54,female,,,fatigue,,,,,,,,,,,,,,,,,sore throat,,,,,,,,,,,dry mouth,,TRUE
+419,1,female,,,,,diarrhea,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+420,53,female,,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,dry mouth,,TRUE
+421,55,female,fever,,,,,,,,,,,,,,,,,headache,,,,,,runny nose,,,,,,,,,TRUE
+422,96,female,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+423,20,female,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+424,52,female,,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+425,70-79,female,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+426,70-79,female,fever,,,,,malaise,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+427,40-49,female,,cough,,,diarrhea,,,,,,chest discomfort,,,vomitting,,,,,,sore throat,,,,,,,,,,,,,TRUE
+428,70-79,female,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+429,60-69,female,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,sputum,,,,,,,TRUE
+430,60-69,female,fever,cough,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+431,32,female,,,,,,,,,,,,dyspnea,,,,,,,,,,,,,,,,,,,,,TRUE
+432,18,female,fever,,,,,,,,,,,dyspnea,,,,,,,,,,,,,,,,,,,,,TRUE
+433,56,female,fever,,,,,,,,,,,dyspnea,,,,,,,,,,,,,,,,,,,,,TRUE
+434,72,female,fever,,,,,,,,,,,,,,,,,,weakness,,,,,,,,,,,,,,TRUE
+435,2,female,fever,,,,,,,,,,,,,,,,,,,,sneezing,,,,,,,,,,,,TRUE
+436,50,female,,,,,,,,,,,,dyspnea,,,,,,,,,,,,,,,,,,,,,TRUE
+437,39,female,fever,,,,,,,,,,,,,,,,,,weakness,,,,,runny nose,,,,,,,,,TRUE
+438,64,female,,,,,,,,,,,,,,,,,,,,,,,,,,,pneumonitis,,,,,,TRUE
+439,47,female,fever,cough,fatigue,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+440,70,female,,,,,,,,,,,,,,,,,,,,,,,,,,,pneumonitis,,,,,,TRUE
+441,52,female,,,,,,,,,,,,,,,,,,,,,,,,,,,pneumonitis,,,,,,TRUE
+442,50-59,female,,,,,,,pneumonia,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+443,41,female,,,,,,,pneumonia,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+444,41,female,,,,,,,,,,,,,,,,,,,,,,,,,,,pneumonitis,,,,,,TRUE
+445,46,female,,,,,,,,,,,,,,,,,,,,,,,,,,,pneumonitis,,,,,,TRUE
+446,36,female,,,,,,,,,,,,,,,,,,,,,,,,,,,pneumonitis,,,,,,TRUE
+447,32,female,,,,,,,,,,,,,,,,,,,,,,,,,,,pneumonitis,,,,,,TRUE
+448,45,female,fever,,,,,,,,,,,,,,,,,,,sore throat,,,,,,sputum,,,,,,,TRUE
+449,66,female,,,,,,,,,,,,,,,,,,,weakness,,,,,,,,,,,,,,TRUE
+450,28,female,fever,,,,,,,,,,,,,,,,,,,sore throat,,,,,,,,,,,,,TRUE
+451,54,female,fever,,fatigue,,diarrhea,,,,,,,,,,,,,,,sore throat,,,,,,,,,,,,,TRUE
+452,60,female,fever,,fatigue,,,,,,,,,,,vomitting,,,,,,sore throat,,,,,,,,,,,,,TRUE
+453,53,female,,,,,,,,,,,,,,,,,,,,,,,,,,,pneumonitis,,,,,,TRUE
+454,30-39,female,fever,,,,,,,,,,,,,,,,,,,,,,,runny nose,,,,,,,,,TRUE
+455,29,female,,,,,,,,,,,,,,,,,,headache,,,,,,,,,,,,,dry mouth,,TRUE
+456,38,female,fever,,,,,,,,,,,,,,,,,,,sore throat,,,,,,,,,,,dry mouth,,TRUE
+457,55,female,,,,,,,,,,,,dyspnea,,,,,,,,,,,,,,,,,,,,,TRUE
+458,33,female,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,dry mouth,,TRUE
+459,38,female,fever,,fatigue,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+460,60-60,female,,,,,,,,,,,,,,,,,,,weakness,,,,,,,,,,,,,,TRUE
+461,60-69,female,fever,cough,,,,,pneumonia,,,,,,nausea,,,,,,,,,,,,,,,,,,,,TRUE
+462,50-59,female,,,,,,malaise,,,,,,,,,,,,headache,,,,,,,,,,,,,,,TRUE
+463,50-59,female,fever,cough,,,,,,,,,,,,,,,,,,sore throat,,,,,,,,,,,,,TRUE
+464,50-59,female,fever,,,,,,pneumonia,,,,,dyspnea,,,,,,,,,,,,,,,,,,,,,TRUE
+465,60-69,female,,,,,,,,,,,,,nausea,,,,,,,,,,,,,,,,,,,,TRUE
+466,55,female,fever,cough,,,,,,,,,,,,,,,,,,sore throat,,rhinorrhea,,runny nose,,,,,,,,,TRUE
+467,40,female,,,,,,,,,,,chest discomfort,,,,,,,,,sore throat,,,,,,,,,,,,,TRUE
+468,36,female,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,TRUE
+469,20-29,female,fever,,,,,,,,,,,,,,,,,,,sore throat,,,,runny nose,,,,,,,,,TRUE
+470,50-59,female,,,,,,,,,,,,,,,chills,,,,,sore throat,,,,,,,,,,,,,TRUE
+471,60-69,female,fever,cough,,,,,,,,,,dyspnea,,,,,,,,,,,,,,sputum,,,,,,,TRUE
+472,21,female,,,fatigue,,,,,,,asymptomatic,,,,,,,,headache,,,,rhinorrhea,,,,,,,,,,,FALSE
+473,22,male,,,fatigue,,,malaise,,aching muscles,,asymptomatic,,,,,,,joint pain,,,,,,,,,,,,,,,,FALSE
+474,23,male,,,fatigue,,,malaise,,aching muscles,,,,,,,,conjuctivitis,,headache,,,,,,,,,,,,,,,FALSE
+475,21,male,,,,,,,,,,asymptomatic,,,,,,,,,,,,,,,,,,,,,,,FALSE
+476,21,male,,,fatigue,,diarrhea,malaise,,aching muscles,,asymptomatic,chest discomfort,dyspnea,,,chills,,joint pain,headache,weakness,,sneezing,,dizziness,runny nose,,sputum,,,,,,,FALSE
+477,20,male,,,,,,,,,,asymptomatic,,,,,,,,,,,,,,,,,,,,,,,FALSE
+478,24,female,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+479,21,female,,,fatigue,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+480,23,male,,,,,,,,,anorexia,,,,,,,,,,,,,,,runny nose,,sputum,,,,,,,FALSE
+481,21,female,,,,,,,,,,,,,,,,,,,,,,,,,,sputum,,,,,,,FALSE
+482,22,female,,cough,,,,,,,,asymptomatic,,,,,,,,,,,,,,runny nose,,sputum,,,,,,,FALSE
+483,21,female,,,fatigue,,diarrhea,,,,anorexia,,,,,,,,joint pain,,,,,,,,,,,,,,,,FALSE
+484,21,female,,,,,,,,,,asymptomatic,,,,,,,,headache,,,,,,,,,,,,,,,FALSE
+485,21,male,,,,,,malaise,,,,asymptomatic,,,,vomitting,chills,conjuctivitis,,headache,weakness,,,,,,,,,,,,,,FALSE
+486,24,male,,,,,,,,,,asymptomatic,,,,,,,,,,,,,,,,sputum,,,,,,,FALSE
+487,23,male,,,fatigue,,,malaise,,,,,,dyspnea,,,,,,,,,sneezing,,,,,,,,,,,,FALSE
+488,23,male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+489,22,female,,,,,,,,,,asymptomatic,,,,,,,,,,,,,,,,,,,,,,,FALSE
+490,22,male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+491,22,male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+492,21,male,,cough,fatigue,,,,,,,,,,,,,,joint pain,,,,,rhinorrhea,,,,sputum,,,,,,,FALSE
+493,21,male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+494,21,female,,,,,,,,,,asymptomatic,,,,,,,,,,,,,,,,,,,,,,,FALSE
+495,26,male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+496,26,male,,,,,,,,,,asymptomatic,,,,,,,,,,,,,,,,,,,,,,,FALSE
+497,25,male,,,fatigue,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+498,27,female,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+499,22,female,,,,,,,,aching muscles,,,,,,,,,,headache,,,,,dizziness,,,sputum,,,,,,,FALSE
+500,21,male,,,,,,,,,,,,,,,,,,,,,,,,,,sputum,,,,,,,FALSE
+501,21,male,,cough,,,,,,aching muscles,,asymptomatic,,,,,,,,headache,,,,,,,,,,,,,,,FALSE
+502,21,male,,,fatigue,,,malaise,,,,asymptomatic,,,,,,,joint pain,,,,,,,,,sputum,,,,,,,FALSE
+503,23,male,,,,,,,,,,asymptomatic,,,,,,,,,,,,,,,,,,,,,,,FALSE
+504,23,male,,,,,,,,aching muscles,,asymptomatic,,,,,,,,,,,,,dizziness,,,,,,,,,,FALSE
+505,22,female,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+506,24,male,,cough,,,,,,,,asymptomatic,,,,,,,,,,,,,dizziness,runny nose,,sputum,,,,,,,FALSE
+507,21,male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+508,21,male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+509,21,male,,cough,,,,,,,,,chest discomfort,,,,,,,,,,,,,,,,,,,,,,FALSE
+510,23,female,,,,,,,,,,asymptomatic,,,,,,,,,,,,,,,,,,,,,,,FALSE
+511,23,male,,,,,,,,,,asymptomatic,,,,,,,,,,,,,,,,,,,,,,,FALSE
+512,26,male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+513,22,female,,,,,,,,,,asymptomatic,,,,,,,,,,,,,,,,,,,,,,,FALSE
+514,23,male,,,,,,malaise,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+515,21,male,,,,,,,,,,,,dyspnea,,,,,,,,,,rhinorrhea,,,,sputum,,,,,,,FALSE
+516,27,male,,cough,,,,malaise,,,anorexia,,chest discomfort,dyspnea,,,,,,,weakness,sore throat,,,,,,,,,,,,,FALSE
+517,22,male,,,,,,,,,,asymptomatic,,,,,,,,,,,,,,,,,,,,,,,FALSE
+518,21,female,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+519,22,male,,,,,,,,,,,,,,,,,,headache,,,,,,,,,,,,,,,FALSE
+520,21,female,,,fatigue,,,,,,,,chest discomfort,dyspnea,,,,,,headache,,,,,,,,,,,,,,,FALSE
+521,26,female,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+522,23,female,,,,,,,,,,,,,,,,,joint pain,,,,,,,runny nose,,,,,,,,,FALSE
+523,20,female,,,,,,,,,,asymptomatic,,,,,,,,,,,,,,,,,,,,,,,FALSE
+524,11,male,,,,,,,,,,,,,,,,,joint pain,headache,,,,rhinorrhea,,,,,,,,,,,FALSE
+525,23,male,,cough,,,,,,,,asymptomatic,,,,,,,,,,,,,,,,,,,,,,,FALSE
+526,20,female,,cough,fatigue,abdominal pain,,malaise,,aching muscles,,asymptomatic,,,nausea,,,conjuctivitis,,headache,,sore throat,,,dizziness,,,,,,,,,,FALSE
+527,43,female,,,,,,,,aching muscles,anorexia,asymptomatic,,,,,,,joint pain,,,,,,,,,,,,,,,,FALSE
+528,24,male,,,,,,,,,,asymptomatic,,,,,,,,headache,,,,,,,,,,,,,,,FALSE
+529,24,male,fever,cough,fatigue,abdominal pain,diarrhea,malaise,pneumonia,aching muscles,anorexia,,chest discomfort,dyspnea,nausea,vomitting,chills,conjuctivitis,joint pain,headache,weakness,sore throat,,rhinorrhea,dizziness,runny nose,difficulty walking,sputum,,,,,,,FALSE
+530,21,male,,,,,,,,,,asymptomatic,,,,,,,,,,,,,,,,,,,,,,,FALSE
+531,25,male,,,,,,,,,,asymptomatic,,,,,,,,,,,sneezing,,,,,,,,,,,,FALSE
+532,21,male,,,fatigue,,,malaise,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+533,73,female,,,fatigue,,,,,,anorexia,asymptomatic,,,,,chills,,,,,,,,,,,sputum,,,,,,,FALSE
+534,21,female,,,,,,,,,,asymptomatic,,,,,,,,,,,,,,,,,,,,,,,FALSE
+535,21,male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+536,25,female,,,,,,,,,,asymptomatic,,,,,,,,,,,,,,runny nose,,,,,,,,,FALSE
+537,21,male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+538,20,male,,,,,,,,,,asymptomatic,,,,,,,,,,,,,,,,,,,,,,,FALSE
+539,19,male,,,fatigue,,,,,aching muscles,,asymptomatic,chest discomfort,dyspnea,,,,conjuctivitis,joint pain,,,,,,,runny nose,,,,,,,,,FALSE
+540,19,female,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+541,21,male,,,,,,,,,,asymptomatic,,,,,,,,,,,,,,,,sputum,,,,,,,FALSE
+542,21,male,,,,,,malaise,,,,asymptomatic,,,,,,,,,weakness,,,,,,,,,,,,,,FALSE
+543,23,male,,,,,,,,,,,,,,,,,,,,,,,,,,sputum,,,,,,,FALSE
+544,24,male,,,fatigue,,,,,,,,chest discomfort,,,,,,joint pain,headache,,,,,,,,,,,,,,,FALSE
+545,22,female,,,fatigue,,,malaise,,aching muscles,,,,,nausea,,,,joint pain,headache,weakness,,,,,,,,,,,,,,FALSE
+546,22,female,,,fatigue,,,,,aching muscles,,asymptomatic,chest discomfort,,,,,conjuctivitis,,,weakness,sore throat,,,,,,,,,,,,,FALSE
+547,23,male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+548,25,male,,,,,,,,aching muscles,anorexia,asymptomatic,,,,,,,,,weakness,,,,,,,,,,,,,,FALSE
+549,20,female,,,fatigue,,,,,aching muscles,,,,,,,,conjuctivitis,joint pain,,,,,,,,,sputum,,,,,,,FALSE
+550,20,female,,,,,,,,,,asymptomatic,,,,,,,,,,sore throat,,,,,,,,,,,,,FALSE
+551,22,female,,cough,,,,,,,,asymptomatic,,,,,,,,,,,,,,,,,,,,,,,FALSE
+552,18,male,,,,,,,,,,,,,,,,,,,,,sneezing,,,,,,,,,,,,FALSE
+553,21,female,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+554,25,male,,cough,,,,malaise,,aching muscles,anorexia,,,,,vomitting,,conjuctivitis,,,weakness,sore throat,,,dizziness,,,sputum,,,,,,,FALSE
+555,17,male,,,,,,,,aching muscles,,asymptomatic,,,,,,,,,,,,,,,,sputum,,,,,,,FALSE
+556,21,male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+557,21,female,,,,,,,,,,,chest discomfort,,,,,,,headache,,,,,,,,,,,,,,,FALSE
+558,22,female,,,,,,,,,anorexia,,,,nausea,,chills,,,headache,weakness,,sneezing,,,,,,,,,,,,FALSE
+559,20,female,,,,,,,,aching muscles,,,,,,,,,,,,,,,,,,sputum,,,,,,,FALSE
+560,23,male,,,fatigue,,,,,,anorexia,asymptomatic,chest discomfort,,,,,,,headache,weakness,,,,,,,,,,,,,,FALSE
+561,18,male,,,fatigue,,,malaise,,aching muscles,anorexia,asymptomatic,,,,,,,joint pain,headache,weakness,,,,,,,,,,,,,,FALSE
+562,22,female,,,,,,,,,,,,,nausea,,,,,,,,,,,,,,,,,,,,FALSE
+563,21,female,,,fatigue,,,,,,,,,,,,,,,headache,,sore throat,,,,,,,,,,,,,FALSE
+564,21,female,,,fatigue,abdominal pain,,malaise,,aching muscles,anorexia,asymptomatic,chest discomfort,dyspnea,nausea,,chills,conjuctivitis,joint pain,headache,weakness,,,,dizziness,,,,,,,,,,FALSE
+565,21,female,,,,,,,,aching muscles,anorexia,,,,,,,,,headache,,sore throat,,,,,,,,,,,,,FALSE
+566,20,female,,,fatigue,,,malaise,,,,,,,,,,,,headache,weakness,,,,,,,,,,,,,,FALSE
+567,22,female,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+568,22,female,,,,,,,,,,asymptomatic,,,,,,,,,,,,,,,,,,,,,,,FALSE
+569,21,female,,,,,,malaise,,aching muscles,,,,,,,,conjuctivitis,,,weakness,,,,,,,,,,,,,,FALSE
+570,26,female,,,fatigue,,,,,,,asymptomatic,chest discomfort,,,,,,,,weakness,,,,,,,,,,,,,,FALSE
+571,22,male,,,,,,,,,,,,,,,,,,,,,sneezing,,,,,,,,,,,,FALSE
+572,19,female,,,,abdominal pain,,malaise,,aching muscles,anorexia,asymptomatic,,,,,,,joint pain,,weakness,,,,,,,,,,,,,,FALSE
+573,23,male,,,,,,,,aching muscles,,asymptomatic,,,,,,,,headache,,,,,,,,,,,,,,,FALSE
+574,21,male,fever,,fatigue,,diarrhea,malaise,,aching muscles,,,chest discomfort,,,,,,,headache,weakness,,,,,,,,,,,,,,FALSE
+575,23,male,,,,,,,,,,,,,,,,conjuctivitis,,headache,,,,,dizziness,,,,,,,,,,FALSE
+576,18,male,,,fatigue,,,malaise,,aching muscles,,,,,,,,,,headache,,,,,,,,,,,,,,,FALSE
+577,21,male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+578,22,male,,,,abdominal pain,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+579,21,male,,cough,,,,,,,,,,,,,,,,,,,,,,,,sputum,,,,,,,FALSE
+580,22,female,,,,,,malaise,,aching muscles,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+581,17,female,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+582,23,female,,,,,,malaise,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+583,21,male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+584,22,female,,,fatigue,abdominal pain,,malaise,,,,,,,,,chills,,,headache,weakness,sore throat,sneezing,,,,,sputum,,,,,,,FALSE
+585,22,male,fever,cough,fatigue,,,malaise,,aching muscles,,asymptomatic,chest discomfort,dyspnea,,vomitting,,conjuctivitis,joint pain,headache,weakness,sore throat,,,dizziness,,,,,,,,,,FALSE
+586,23,male,,,,,,,,,,asymptomatic,,,,,,,,,,,,,,,,,,,,,,,FALSE
+587,23,male,,cough,fatigue,,,malaise,,aching muscles,,,chest discomfort,,,vomitting,,,joint pain,headache,weakness,,,,,,,,,,,,,,FALSE
+588,19,female,,,,abdominal pain,,malaise,,,,,,dyspnea,,,,conjuctivitis,,headache,,,,,,,difficulty walking,,,,,,,,FALSE
+589,22,female,,cough,fatigue,,,malaise,,aching muscles,anorexia,,,dyspnea,nausea,,,conjuctivitis,,,weakness,sore throat,,,dizziness,runny nose,,,,,,,,,FALSE
+590,22,male,,,,,,malaise,,aching muscles,,,,,,,,conjuctivitis,,headache,,,,,,,,,,,,,,,FALSE
+591,22,female,,,fatigue,,,,,,anorexia,asymptomatic,,,,,,conjuctivitis,,,,,,,,runny nose,,,,,,,,,FALSE
+592,21,male,,,,,,malaise,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+593,21,male,,cough,,,,,,,,,,,,,chills,conjuctivitis,,,,,,,,,,,,,,,,,FALSE
+594,22,female,,,,,,,,,,asymptomatic,,,,,,,,,,,,,,,,,,,,,,,FALSE
+595,21,male,,,,,,,,,,asymptomatic,chest discomfort,,,,,conjuctivitis,,,,,,,,,,sputum,,,,,,,FALSE
+596,21,male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+597,20,male,,,fatigue,,,malaise,,,,,chest discomfort,dyspnea,,,,conjuctivitis,,headache,weakness,,,,dizziness,,difficulty walking,,,,,,,,FALSE
+598,23,male,,,fatigue,,,malaise,,,,asymptomatic,,,,,,conjuctivitis,,headache,,,,,,runny nose,,,,,,,,,FALSE
+599,20,female,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+600,22,female,,,,,,malaise,,,,asymptomatic,,,,,,,,,,,,,,,,,,,,,,,FALSE
+601,26,male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+602,23,female,,,,,,,,,,,,,,,,conjuctivitis,,headache,,,,,,,,,,,,,,,FALSE
+603,21,female,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+604,19,male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+605,22,female,,,,,,,,,,asymptomatic,,,,,,,,,,,,,,,,,,,,,,,FALSE
+606,17,female,,,,,,,,,,asymptomatic,,dyspnea,,,,,,,,,,,,,,,,,,,,,FALSE
+607,21,female,,cough,,,,,,,,,,,,,,conjuctivitis,,,,,,,,,,sputum,,,,,,,FALSE
+608,23,male,,,,,,malaise,,aching muscles,,asymptomatic,,,,,,,joint pain,,,,,,,runny nose,,,,,,,,,FALSE
+609,23,male,,cough,fatigue,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+610,21,female,,,,,,,,,,asymptomatic,,,,,,,,,,,,,,,,,,,,,,,FALSE
+611,21,female,,,fatigue,,,malaise,,aching muscles,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+612,23,male,,,fatigue,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+613,20,female,,,fatigue,,,malaise,,,,,,,,,,,,,,,,,,,,sputum,,,,,,,FALSE
+614,20,female,,,fatigue,,,malaise,,aching muscles,,,,,,,,conjuctivitis,,headache,weakness,,,,dizziness,,,,,,,,,,FALSE
+615,23,male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+616,18,male,,,,,,,,,,asymptomatic,,,,,,,,,,,,,,,,,,,,,,,FALSE
+617,20,female,,,,,,,,aching muscles,,,,,,,,,joint pain,,,,,,,,,,,,,,,,FALSE
+618,25,female,,,,,,,,,,,,,,,,,,headache,,,,,,,,,,,,,,,FALSE
+619,23,male,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+620,19,male,,,fatigue,,,,,aching muscles,,,,,,,,,,,,,,,,,,,,,,,,,FALSE
+621,21,female,,,,,,,,,,,,,,,,,,,,,,,,runny nose,,,,,,,,,FALSE
+622,23,male,,,,,,,,,,asymptomatic,,,,,,,,,,,,,,,,,,,,,,,FALSE
