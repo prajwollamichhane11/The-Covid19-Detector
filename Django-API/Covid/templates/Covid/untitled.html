@@ -1,0 +1,116 @@
+<html>
+<head>
+	<style type="text/css">
+#summary, {
+ background:white;
+ width: 300px;
+ height: 50px;
+ font: normal 14px verdana;
+ line-height: 25px;
+ padding: 2px 10px;
+ border: solid 3px #ddd;
+}
+</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+	<title>Detector</title>
+</head>
+<body>
+	<div class="container">
+	<div class="card">
+	<div class="card-header">
+	<h2>Please enter the following details:</h2>
+	</div>
+	<div class="card-body">
+		{% if text == 1 %}
+		<div class="alert alert-danger" role="alert" id="words">Corona Detected</div>
+		{% else %}
+		<div class="alert alert-success" role = "alert" id= "words">No Corona</div>
+		{% endif %}
+	<form class = "form" method="post" enctype="multipart/form-data" action="{% url 'detector' %}">
+		{% csrf_token %}
+		<div class="form-group">
+		AGE:
+		<textarea class="form-control" name="age" rows="1" cols="5"></textarea><br/>
+		Gender:(Male=1, Female=0)
+		<textarea class="form-control" name="sex" rows="1" cols="5"></textarea><br/>
+		For the following questions give 1 for YES and 0 for NO.
+		<br>
+		FEVER:
+		<textarea class="form-control" name="fever" rows="1" cols="5"></textarea><br/>
+		COUGH:
+		<textarea class="form-control" name="cough" rows="1" cols="5"></textarea><br/>
+		FATIGUE:
+		<textarea class="form-control" name="fatigue" rows="1" cols="5"></textarea><br/>
+		ABDOMINAL PAIN:
+		<textarea class="form-control" name="abdominalPain" rows="1" cols="5"></textarea><br/>
+		DIARRHOEA:
+		<textarea class="form-control" name="diarrhea" rows="1" cols="5"></textarea><br/>
+		MALAISE:
+		<textarea class="form-control" name="malaise" rows="1" cols="5"></textarea><br/>
+		PNEUMONIA:
+		<textarea class="form-control" name="pneumonia" rows="1" cols="5"></textarea><br/>
+		ACHING MUSCLES:
+		<textarea class="form-control" name="achingMuscles" rows="1" cols="5"></textarea><br/>
+		ANOREXIA:
+		<textarea class="form-control" name="anorexia" rows="1" cols="5"></textarea><br/>
+		ASYMPTOMATIC:
+		<textarea class="form-control" name="asymptomatic" rows="1" cols="5"></textarea><br/>
+		CHEST DISCOMFORT:
+		<textarea class="form-control" name="chestDiscomfort" rows="1" cols="5"></textarea><br/>
+		DYSPNEA:
+		<textarea class="form-control" name="dyspnea" rows="1" cols="5"></textarea><br/>
+		NAUSEA:
+		<textarea class="form-control" name="nausea" rows="1" cols="5"></textarea><br/>
+		VOMITTING:
+		<textarea class="form-control" name="vomitting" rows="1" cols="5"></textarea><br/>
+		CHILLS:
+		<textarea class="form-control" name="chills" rows="1" cols="5"></textarea><br/>
+		CONJUNCTIVITIS:
+		<textarea class="form-control" name="conjuctivitis" rows="1" cols="5"></textarea><br/>
+		JOINT PAIN:
+		<textarea class="form-control" name="jointPain" rows="1" cols="5"></textarea><br/>
+		HEADACHE:
+		<textarea class="form-control" name="headache" rows="1" cols="5"></textarea><br/>
+		WEAKNESS:
+		<textarea class="form-control" name="weakness" rows="1" cols="5"></textarea><br/>
+		SORE THROAT:
+		<textarea class="form-control" name="soreThroat" rows="1" cols="5"></textarea><br/>
+		SNEEZING:
+		<textarea class="form-control" name="sneezing" rows="1" cols="5"></textarea><br/>
+		RHINORRHEA:
+		<textarea class="form-control" name="rhinorrhea" rows="1" cols="5"></textarea><br/>
+		DIZZINESS:
+		<textarea class="form-control" name="dizziness" rows="1" cols="5"></textarea><br/>
+		RUNNY NOSE:
+		<textarea class="form-control" name="runnyNose" rows="1" cols="5"></textarea><br/>
+		WALKING DIFFICULTY:
+		<textarea class="form-control" name="difficultyWalking" rows="1" cols="5"></textarea><br/>
+		SPUTUM:
+		<textarea class="form-control" name="sputum" rows="1" cols="5"></textarea><br/>
+		PNEUMOTITIS:
+		<textarea class="form-control" name="pneumonitis" rows="1" cols="5"></textarea><br/>
+		PHYSICAL DISCOMFORT:
+		<textarea class="form-control" name="physicalDiscomfort" rows="1" cols="5"></textarea><br/>
+		TOOTHACHE:
+		<textarea class="form-control" name="toothache" rows="1" cols="5"></textarea><br/>
+		WHEEZING:
+		<textarea class="form-control" name="wheezing" rows="1" cols="5"></textarea><br/>
+		DRY MOUTH:
+		<textarea class="form-control" name="dryMouth" rows="1" cols="5"></textarea><br/>
+		SWEATING:
+		<textarea class="form-control" name="sweating" rows="1" cols="5"></textarea><br/>
+
+
+		<div class="d-flex justify-content-center">
+			<button class="btn btn-primary btn-lg" type="submit">Enter</button>
+		</div>
+		</div>
+	</form>
+	</div>
+</div>
+</div>
+</body>
+</html>
